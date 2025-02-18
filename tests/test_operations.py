@@ -2,7 +2,7 @@ from src.math_operations import add, subtract
 
 def test_add():
     assert add(1,2) == 3
-    assert add(-1,11) == 0
+    assert add(1,11) == 12
 
 
 def test_subtract():
